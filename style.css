@@ -1,0 +1,40 @@
+body {
+  color: white;
+  background-image: url("assets/bg.jpg");
+  background-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.inotput {
+  display: flex;
+  align-items: center;
+}
+#number {
+  /* margin-right: 30px; */
+  height: 25px;
+  border: 0;
+  padding: 10px;
+  border-color: white;
+  border-radius: 15px;
+}
+#words {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  min-height: 25px;
+  text-wrap: auto;
+  min-width: 20vw;
+  max-width: 40vw;
+}
